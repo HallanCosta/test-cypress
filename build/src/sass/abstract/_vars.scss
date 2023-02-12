@@ -1,0 +1,29 @@
+
+/* FUNCTIONS */
+@mixin for-size($size)
+{
+    @if $size == phone-390 {
+        @media (max-width: 390px) { @content; }
+    } @else if $size == phone-400 {
+        @media (max-width: 400px) { @content; }
+    } @else if $size == phone-450 {
+        @media (max-width: 450px) { @content; }
+    } @else if $size == phone {
+        @media (max-width: 600px) { @content; }
+    } @else if $size == tablet-720 {
+        @media (max-width: 720px) { @content; }
+    } @else if $size == tablet {
+        @media (max-width: 1000px) { @content; }
+    } @else if $size == screen-1164 {
+        @media (max-width: 1164px) { @content; }
+    } @else if $size == screen-1280 {
+        @media (max-width: 1280px) { @content; }
+    } @else if $size == screen-1440 {
+        @media (max-width: 1440px) { @content; }
+    } @else if $size == screen-1680 {
+        @media (max-width: 1680px) { @content; }
+    }
+}
+
+/* PATH`S */
+$path_images: '/';

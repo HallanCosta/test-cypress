@@ -1,0 +1,19 @@
+//
+// NOTA SOBRE NOME DOS ARQUIVOS:
+// https://stackoverflow.com/questions/34889962/why-put-in-front-of-the-file-name-or-in-scss-css
+//
+
+// Reset CSS
+@import '../../node_modules/normalize.css/normalize.css';
+
+// Abstract
+@import 'abstract/vars';
+@import 'abstract/animations';
+
+// Base (common styles through the project)
+@import 'base/base';
+@import 'base/helpers/abstract';
+@import 'base/helpers/positioning';
+
+// Pages
+@import 'pages/home';
